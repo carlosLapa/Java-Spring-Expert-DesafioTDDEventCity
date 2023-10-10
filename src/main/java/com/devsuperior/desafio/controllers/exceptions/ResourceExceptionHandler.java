@@ -1,6 +1,5 @@
 package com.devsuperior.desafio.controllers.exceptions;
 
-
 import com.devsuperior.desafio.services.exceptions.DatabaseException;
 import com.devsuperior.desafio.services.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
