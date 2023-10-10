@@ -3,6 +3,8 @@ package com.devsuperior.desafio.services;
 import com.devsuperior.desafio.dto.CityDTO;
 import com.devsuperior.desafio.entities.City;
 import com.devsuperior.desafio.repositories.CityRepository;
+import com.devsuperior.desafio.services.exceptions.DatabaseException;
+import com.devsuperior.desafio.services.exceptions.ResourceNotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
